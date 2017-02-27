@@ -1,0 +1,63 @@
+@font-face {
+    font-family: allerBdIt;
+    src: url(fonts/Aller_BdIt.ttf);
+}
+
+body {
+   font-family: allerBdIt;
+   font-size: 25px;
+   color: #313048;
+}
+
+.hero-banner {
+   position: absolute;
+   background: url("img/banner-image.jpg");
+   background-size: cover;
+   width:100%;
+   height:70vh;
+   border: solid 1px magenta;
+}
+
+.menu-bar {
+   height:70px;
+   opacity: 0.5;
+   border: solid 1px lightgreen;
+}
+
+.menu-bar p {
+   text-align: center;
+}
+
+.container {
+   margin: 0 auto;
+   width: 80%;
+   border: solid 1px blue;
+}
+
+.banner-wrapper {
+   position: relative;
+   padding-top: 240px;
+}
+
+h1 {
+   color: #313048;
+   font-size: 40px;
+   font-family: allerBdIt;
+}
+
+.banner-title {
+}
+
+.banner-title-purple {
+   color: #8C00FF;
+}
+
+p {
+   color: #8C00FF;
+   font-size: 25px;
+}
+
+.banner-button {
+   margin-top: 30px;
+
+}
