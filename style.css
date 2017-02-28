@@ -31,17 +31,21 @@ body {
 
 .menu-bar {
    height:70px;
-   opacity: 0.5;
    border: solid 1px lightgreen;
 }
 
+.logo {
+   background: url("img/freeworkspace-logo.svg") no-repeat;
+   height: 100%;
+}
+
 .menu-bar p {
-   text-align: center;
 }
 
 .container {
    margin: 0 auto;
    width: 80%;
+   height: 100%;
    border: solid 1px blue;
 }
 
