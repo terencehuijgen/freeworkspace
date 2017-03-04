@@ -13,7 +13,7 @@ body {
 
 .banner-content {
    display:flex;
-   flex-direction: baseline;
+   flex-direction: column;
 }
 
 .banner-title {
@@ -51,8 +51,6 @@ header {
    height: 100%;
 }
 
-
-
 .menu-wrapper {
    background-color: rgba(255,255,255,0);
    width: 100%;
@@ -63,6 +61,7 @@ header {
    display: flex; /* gebruik dit als je een container flexbox wilt maken */
    flex-direction: row; /* row is horizontaal (main axis) en columt is verticaal (cross axis) */
    justify-content: space-between; /* werkt alleen op de main axis, niet op de cross axis */
+   align-items: baseline;
 }
 
 .logo {
@@ -85,4 +84,21 @@ header {
    border: solid 2px #fff;
    color: #8C00FF;
    background-color: white;
+}
+
+.cta-button {
+   background-color: blue;
+   font-family: allerBdIt;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.button-style {
+   font-family: allerBdIt;
+   font-size: 20px;
+}
+
+.cta-arrow {
+   padding-left: 30px;
 }
