@@ -18,6 +18,15 @@ h2 {
    height: 0;
 }
 
+li {
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
 .banner-content {
    display:flex;
    flex-direction: column;
@@ -35,8 +44,9 @@ h2 {
 }
 
 .container {
-   width:80%;
+   width: 80%;
    margin: 0 auto;
+   max-width: 1250px;
 }
 
 header {
@@ -130,4 +140,36 @@ header {
 
 .location-line {
    padding-top: 20px;
+}
+
+.location-grid {
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.location-item {
+   width: 100%;
+   max-width: 317px;
+   padding-bottom: 60px;
+}
+
+@media (min-width: 400px) {
+   li {
+      width: 48%;
+   }
+}
+
+@media (min-width: 728px) {
+   li {
+      width: 31%;
+   }
+}
+
+@media (min-width: 1000px) {
+   li {
+      width: 23%;
+   }
 }
