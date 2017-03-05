@@ -20,6 +20,7 @@ body {
    padding-top: 150px;
    color: #313048;
    font-family: allerBdIt;
+   font-size: 40px;
 }
 
 .banner-title span {
@@ -87,18 +88,30 @@ header {
 }
 
 .cta-button {
-   background-color: blue;
    font-family: allerBdIt;
    display: flex;
    flex-direction: row;
-   align-items: center;
+   align-items: baseline;
 }
 
-.button-style {
+.button-text a {
    font-family: allerBdIt;
-   font-size: 20px;
+   font-size: 25px;
+   color: #8C00FF;
 }
 
-.cta-arrow {
-   padding-left: 30px;
+.button-arrow {
+   padding-left: 15px;
+   -webkit-transition:all 0.3s ease-in-out;
+   -moz-transition:all 0.3s ease-in-out;
+   -o-transition:all 0.3s ease-in-out;
+   transition:all 0.3s ease-in-out;
+}
+
+.button-text:hover + .button-arrow {
+   padding-left: 25px;
+   -webkit-transition:all 0.5s ease-in-out;
+   -moz-transition:all 0.5s ease-in-out;
+   -o-transition:all 0.5s ease-in-out;
+   transition:all 0.5s ease-in-out;
 }
