@@ -152,12 +152,10 @@ header {
    padding: 0;
    display: flex;
    flex-wrap: wrap;
-   width: 100%;
    justify-content: space-between;
 }
 
 .location-item {
-   width: 100%;
    max-width: 317px;
    padding-bottom: 40px;
 }
